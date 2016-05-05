@@ -11591,6 +11591,10 @@ var e=c.find(".active:last a"),f=a.Event("hide.bs.tab",{relatedTarget:b[0]}),g=a
 $(document).on('ready', function(){
 
   $('body').append('<h1>Asset Pipeline Poem</h1>');
+  $('h1').on('click', function (e){
+    console.log("hiiiiiiiii");
+    $('img').attr({ src: "/assets/EcoSystem-5d400ac876b4069a7038c90cb7a34e8b39b9cd246d0bb7c2f8528fa2cc7c7ffb.jpg" });
+  });
 
 });
 $(document).on('ready', function(){
@@ -11630,6 +11634,10 @@ $(document).on('ready', function(){
   }
 
   $('body').append($metaDiv);
+  // $('h1').on('click', function (e){
+  //   console.log("hiiiiiiiii");
+  //   $('img').attr({ src: "/assets/EcoSystem-5d400ac876b4069a7038c90cb7a34e8b39b9cd246d0bb7c2f8528fa2cc7c7ffb.jpg" });
+  // });
 
 });
 // This is a manifest file that'll be compiled into application.js, which will include all the files
